@@ -1,12 +1,13 @@
 import fon from "../../assets/images/fon.jpg";
 import React from "react";
+import classes from './Profile.module.css'
 
 
 export const Profile = () => {
     return (
-        <div className={'app_content'}>
+        <div className={classes.app_content}>
             <div>
-                <img src={fon} alt="" className={'fon'}/>
+                <img src={fon} alt="" className={classes.fon}/>
             </div>
             <div>ava + description</div>
             <div>

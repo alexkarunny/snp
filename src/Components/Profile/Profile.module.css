@@ -1,0 +1,9 @@
+.app_content {
+    grid-area: c;
+    background-color: #998877;
+    color: #fff;
+}
+
+.app_content .fon {
+    width: 300px;
+}

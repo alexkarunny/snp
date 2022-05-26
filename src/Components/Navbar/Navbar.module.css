@@ -1,0 +1,9 @@
+.app_navbar {
+    grid-area: n;
+    background-color: #665588;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
