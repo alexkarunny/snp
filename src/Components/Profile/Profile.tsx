@@ -1,6 +1,7 @@
 import fon from "../../assets/images/fon.jpg";
 import React from "react";
 import classes from './Profile.module.css'
+import {MyPosts} from "./MyPosts/MyPosts";
 
 
 export const Profile = () => {
@@ -10,14 +11,7 @@ export const Profile = () => {
                 <img src={fon} alt="" className={classes.fon}/>
             </div>
             <div>ava + description</div>
-            <div>
-                My posts
-                <div>
-                    new post
-                </div>
-                <div>post 1</div>
-                <div>post 2</div>
-            </div>
+            <MyPosts />
         </div>
     )
 }
