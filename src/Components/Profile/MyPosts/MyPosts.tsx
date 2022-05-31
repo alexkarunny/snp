@@ -7,12 +7,12 @@ export const MyPosts = () => {
         <div>
             My posts
             <div>
-                <textarea />
+                <textarea/>
                 <button>Add post</button>
             </div>
-            <Post />
-            <Post />
-            <Post />
+            <Post like={2} text={'first post'}/>
+            <Post like={1} text={'hello'}/>
+            <Post like={0} text={'fine'}/>
         </div>
     )
 }
